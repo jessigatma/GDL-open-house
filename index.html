@@ -112,7 +112,10 @@
     <container class="modalContainer">
         <container class="login">
             <form class="loginForm">
-                <button class="yellowBtn"> </button>
+                <input type="text" placeholder="Username">
+                <input type="password"placeholder="Password">
+                <button class="yellowBtn"> LOGING </button>
+                <P>Forgot password? <a href="#"> Click Here</a></P>
             </form>
         </container>
     </container>
@@ -121,10 +124,19 @@
 
     <container class="modalContainer">
         <container class="register">
-            <button class="blackBtn"> </button>
+            <button class="blackBtn">Ya tienes una cuenta? </button>
+            <p>O CREA UNA CUENTA NUEVA</p>
             <form class="registerForm">
-                <select> </select>
-                <button class="blueBtn"> </button>
+                <input type= "text" placeholder="Nombre"> <input type="text" placeholder="Apellido">
+                <input type="email" placeholder="Correo Electrónico: ejemplo@correo.mx">
+                <input type="tel" placeholder="Teléfono">
+                <input type="password" placeholder="Contraseña">
+                <input type="text" placeholder="Ciudad">
+                <input type="text" placeholder="(Opcional) Código de invitación">
+                <select name="account" >
+                    <option>Cómo te enteraste de nosotros?</option>
+                </select>
+                <button class="blueBtn"> ENVIAR </button>
             </form>
         </container>
     </container>
@@ -134,7 +146,31 @@
     <container class="modalContainer">
         <container class="driverInfo">
             <form class="driverForm">
-                <button class="blueBtn"> </button>
+                <h6>¿Tienes un vehículo de 4 puertas?</h6>
+                <select name="vehicle">
+                    <option>si</option>
+                    <option>no</option>
+                </select>
+                <h6>Marca</h6>
+                <select name="brand">
+                    <option>Elige la marca del vehículo</option>
+                </select>
+                <p>¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="#">sociosmdv@uber.com</a></p>
+                <h6>Modelo</h6>
+                <select name="model">
+                    <option>modelo1</option>
+                    <option>modelo2</option>
+                </select>
+                <h6>Año</h6>
+                <select name="year">
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                </select>
+                <h6>Número de la matrícula </h6>
+                <input type="text" placeholder="Número de la matrícula">
+                <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                <button class="blueBtn"> ENVIAR </button>
             </form>
         </container>
     </container>
