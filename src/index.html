@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../src/css/main.css">
     <title>Labcar</title>
 </head>
+
 <body>
-    <nav>
+    <!------------------------NAV---------------------------------------->
+    <header class="nav-top">
+        <span class="hamburger material-icons" id="ham"><i class="fas fa-bars"></i></span>
+        <span> <img src="./assets/images/logoForma.png" /> </span>
+        <nav>
             <ul>
-                <li> <img src="./assets/images/logoForma.png"/> </li>
+                <span class="hamburger" id="menu"><i class="fas fa-bars"></i></span>
                 <li> <a href="#"> Viaja </a> </li>
                 <li><a href="#">Conduce </a> </li>
-                <li><a href="#"> Inicia Sesión</a> </li>
+                <li><a href="#"> Inicia Sesión</a></li>
             </ul>
-    </nav>
-    
+        </nav>
+    </header>
+
+
     <main>
     <container class="register">
         <div class="main-title">
@@ -47,16 +56,16 @@
         <container class="download Info">
             <h3>Descarga la nueva app</h3>
             <p>La versión actualizada de Labcar
-               está llena de nuevas funciones para
-               llegar a donde quieras aún más fácil
-               y rápido.
+                está llena de nuevas funciones para
+                llegar a donde quieras aún más fácil
+                y rápido.
 
-               Con sólo tocar un botón, un auto
-               llega just a tu ubicación. Súbete y
-               no te preocupes: tu conductor sabe 
-               exactamente a dónde ir
+                Con sólo tocar un botón, un auto
+                llega just a tu ubicación. Súbete y
+                no te preocupes: tu conductor sabe
+                exactamente a dónde ir
             </p>
-            <img src="./assets/images/iPhone6Plus.png"/>
+            <img src="./assets/images/iPhone6Plus.png" />
         </container>
     </section>
 
@@ -73,10 +82,10 @@
     <section class="prices">
         <container class="routes">
             <form class="routesForm">
-              <h3>Tarifas</h3>
-              <img src="./assets/images/shape.png"/> <input type="text" placeholder="Ingrese su punto de partida" >
-              <img src="./assets/images/shape2.png"/> <input type="text" placeholder="Ingrese su destino" >
-              <button class="whiteBtn"> ¡TRAZAR RUTA!</button>
+                <h3>Tarifas</h3>
+                <img src="./assets/images/shape.png" /> <input type="text" placeholder="Ingrese su punto de partida">
+                <img src="./assets/images/shape2.png" /> <input type="text" placeholder="Ingrese su destino">
+                <button class="whiteBtn"> ¡TRAZAR RUTA!</button>
             </form>
         </container>
 
@@ -86,7 +95,7 @@
     </section>
 
     <footer>
-        <hr/>
+        <hr />
         <ul>
             <li><a href="#"> Viaja </a></li>
             <li><a href="#"> Conduce </a></li>
@@ -98,17 +107,17 @@
             <li><a href="#"> Seguridad </a></li>
         </ul>
         <ul>
-                <li><a href="#"> Oportunidades </a></li>
-                <li><a href="#"> Nuestra historia </a></li>
-                <li><a href="#"> API de LabCar </a></li>
-                <li><a href="#"> Eventos </a></li>
-                <li><a href="#"> Desarrolladores </a></li>
-                <li><a href="#"> Servicios </a></li>
-                <li><a href="#"> Laboratoria </a></li>
-                <li><a href="#"> Coders </a></li>
-            </ul>
+            <li><a href="#"> Oportunidades </a></li>
+            <li><a href="#"> Nuestra historia </a></li>
+            <li><a href="#"> API de LabCar </a></li>
+            <li><a href="#"> Eventos </a></li>
+            <li><a href="#"> Desarrolladores </a></li>
+            <li><a href="#"> Servicios </a></li>
+            <li><a href="#"> Laboratoria </a></li>
+            <li><a href="#"> Coders </a></li>
+        </ul>
         <div>
-           <a href="http://www.facebook.com"> <i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.facebook.com"> <i class="fab fa-facebook-f"></i></a>
             <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
             <a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
             <a href="http://www.apple.com"><i class="fab fa-apple"></i></a>
@@ -116,39 +125,39 @@
         </div>
 
         <div>
-            <img src="./assets/images/appstore.png"/>
-            <img src="./assets/images/enBadgeWebGeneric.png"/>
+            <img src="./assets/images/appstore.png" />
+            <img src="./assets/images/enBadgeWebGeneric.png" />
         </div>
-        <hr/>
+        <hr />
     </footer>
 
-<!-- -----------------------MODAL LOGIN---------------------------------------->
+    <!-- -----------------------MODAL LOGIN---------------------------------------->
 
     <container class="modalContainer">
         <container class="login">
             <form class="loginForm">
                 <input type="text" placeholder="Username">
-                <input type="password"placeholder="Password">
+                <input type="password" placeholder="Password">
                 <button class="yellowBtn"> LOGING </button>
                 <P>Forgot password? <a href="#"> Click Here</a></P>
             </form>
         </container>
     </container>
 
-<!------------------------MODAL REGISTER---------------------------------------->
+    <!------------------------MODAL REGISTER---------------------------------------->
 
     <container class="modalContainer">
         <container class="register">
             <button class="blackBtn">Ya tienes una cuenta? </button>
             <p>O CREA UNA CUENTA NUEVA</p>
             <form class="registerForm">
-                <input type= "text" placeholder="Nombre"> <input type="text" placeholder="Apellido">
+                <input type="text" placeholder="Nombre"> <input type="text" placeholder="Apellido">
                 <input type="email" placeholder="Correo Electrónico: ejemplo@correo.mx">
                 <input type="tel" placeholder="Teléfono">
                 <input type="password" placeholder="Contraseña">
                 <input type="text" placeholder="Ciudad">
                 <input type="text" placeholder="(Opcional) Código de invitación">
-                <select name="account" >
+                <select name="account">
                     <option>Cómo te enteraste de nosotros?</option>
                 </select>
                 <button class="blueBtn"> ENVIAR </button>
@@ -156,7 +165,7 @@
         </container>
     </container>
 
-<!-- -----------------------MODAL FORM---------------------------------------->
+    <!-- -----------------------MODAL FORM---------------------------------------->
 
     <container class="modalContainer">
         <container class="driverInfo">
@@ -189,6 +198,7 @@
             </form>
         </container>
     </container>
-   
+
 </body>
+
 </html>
