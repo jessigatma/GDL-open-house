@@ -7,9 +7,97 @@
     font-family: 'Cabin', sans-serif;
 }
 main{
+    display:flex;
     background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
+    background-position: 0% 93%;
+    background-size:cover;
+    justify-content: flex-end;
+    color: white;
+    
+}
+.main-title{
+    font-size: 2rem;
+    display:block;
+}
+.prf2{
+    font-size: 1.5rem;
+}
+    
+#logo-begin{
+    width: 4rem;
+    height:  1rem;
+}
+.register{
+    margin: 4rem 0rem 8rem;
+    padding: 2rem 7rem 2.5rem 2rem;
+    text-align: left;
+    background-color: #f7b617;
+    font-size: 2.5rem ;
+}
+.whiteBtn{
+    background-color: white;
+    color:black;
+    border-radius: .25rem;
+    border:none;
+    padding: .45rem .8rem;
+    font-size: 1rem;
+}
+.mobile{
+    display:none;
+}
+.webBtn{
+    display:block;
+}
+.lines{
+    text-align: center;
+    padding:  0rem 0rem 1rem 5rem;
+    display:block;
+}
+.lines-effect{
+    display: inline-block;
+    position: relative;
+    font-size: .8rem;
+    
+    }
+
+    .lines-effect::after,.lines-effect::before{
+        content:'';
+        position:absolute;
+        width:8rem;
+        height: .08rem;
+        background-color: white;
+        top: 0.6rem;
+    }
+    .lines-effect::before{
+        left:-10rem;
+    }
+    .lines-effect::after{
+        right: -10rem;
+    }
+.mobile-text{
+    display:none;
+}
+
+@media screen and (max-width: 800px){
+
+    .mobile-text{
+        display:block;
+    }
+    .main-title{
+        display:none;
+    }
+    .mobile{
+        display:block;
+    }
+    .webBtn{
+        display:none;
+    }
+    .lines{
+        display:none;
+    }
 
 }
+
 
 /*Desktop nav style*/
 header {
