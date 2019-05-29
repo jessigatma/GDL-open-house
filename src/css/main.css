@@ -18,6 +18,7 @@ main{
 }
 .main-title{
     font-size: 2rem;
+    display:block;
 }
 .prf2{
     font-size: 1.5rem;
@@ -42,14 +43,22 @@ main{
     padding: .45rem .8rem;
     font-size: 1rem;
 }
+.mobile{
+    display:none;
+}
+.webBtn{
+    display:block;
+}
 .lines{
     text-align: center;
     padding:  0rem 0rem 1rem 5rem;
+    display:block;
 }
 .lines-effect{
     display: inline-block;
     position: relative;
     font-size: .8rem;
+    
     }
 
     .lines-effect::after,.lines-effect::before{
@@ -66,19 +75,26 @@ main{
     .lines-effect::after{
         right: -10rem;
     }
-
+.mobile-text{
+    display:none;
+}
 
 @media screen and (max-width: 800px){
-    * {
-        margin: 0;
-        text-align: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        font-family: 'Cabin', sans-serif;
+
+    .mobile-text{
+        display:block;
     }
-    main{
-        background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
+    .main-title{
+        display:none;
     }
+    .mobile{
+        display:block;
+    }
+    .webBtn{
+        display:none;
+    }
+    .lines{
+        display:none;
+    }
+
 }
