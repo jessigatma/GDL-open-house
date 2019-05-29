@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "labcar",
+  "version": "1.0.0",
+  "description": "This is a website that connects passengers and drivers with the labcar app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzelMB/GDL-open-house.git"
+  },
+  "author": "CoffeCode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItzelMB/GDL-open-house/issues"
+  },
+  "homepage": "https://github.com/ItzelMB/GDL-open-house#readme"
+}
