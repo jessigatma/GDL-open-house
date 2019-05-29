@@ -1,21 +1,25 @@
-# Open House
+# LabCar
 
-![Área de trabajo e invitación a Open House](https://lh4.googleusercontent.com/eRgzC3S6emgYkLpF46d6vzx4-BRqY2QP9XjqLzsaVJZFVC80Y7oMFRuagUWw5gL5XO9SgRIwsRgLBJNFjupgi3iHFRcyybKlBq51OgSX=s1600)
+## 1. La versión movil
+Buscamos implementar la técnica de `mobile first` y que al tener lista esta versión generes un primer tag en github.
 
+![Lab-car-movil](https://raw.githubusercontent.com/AnaSalazar/curricula-js/0b700308f0c6ed452596912fcef8103b8f88386b/04-social-network/01-css-frameworks/08-code-challenges/images/v-movil.png)
 
-# Objetivos
-## Empresas 
-* Conocer el trabajo y habilidades de las actuales estudiantes de Laboratoria. 
+## 2. La versión web
 
-*  Identificar en ellas talento para sus equipos de trabajo. 
+![Lab-car-web](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/desktop.png)
 
-## Estudiantes
-*  En el marco de 1 reto a trabajar durante 2 días  (ej, pre-admisión) mostrar sus talentos técnicos y habilidades profesionales. 
+Al finalizar la versión desktop deberías generar un segundo tag.
 
-* Equipos de 4 estudiantes a formarse libremente a más tardar el martes 28 de mayo. 
+## 3. Modales
 
-* 4 retos, 1 a elegir libremente el día martes 28 de mayo. Los encontraran en éste repositorio
+Habrá que añadir los modales necesarios en la versión web
 
-* Recibir mentoría y feedback de representantes de empresas que permitan validar el desarrollo de habilidades y competencias para el trabajo. 
+- Modal de Inicia Sesión
+  ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-inicio-sesion.png)
 
-* Establecer relaciones cercanas con empresas contratantes y aliadas de Laboratoria. 
+- Modal de Regístrate
+  ![modal-sesion](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-registrate.png)
+
+- Y modal de Convierte en conductor
+  ![modal-conductor](https://raw.githubusercontent.com/Laboratoria/curricula-js/f659ee55eeb322341c314d7d080bb22468e9a576/04-social-network/01-css-frameworks/08-code-challenges/images/modal-conductor.png)
