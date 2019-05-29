@@ -5,8 +5,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-h1 {
     font-family: 'Cabin', sans-serif;
+}
+main{
+    background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
+    
+   
 }
