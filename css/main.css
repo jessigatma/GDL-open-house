@@ -1,1 +1,12 @@
-/* Los estilos de tu proyecto */
+* {
+    margin: 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cabin', sans-serif;
+}
+main{
+    background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
+}
