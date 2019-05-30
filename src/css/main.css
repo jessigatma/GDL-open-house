@@ -146,6 +146,51 @@ nav ul li a:hover {
     display: none;
 }
 
+.advertising{
+    padding: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0rem;
+    padding-right: 10rem;
+    display:flex;
+    background-color: #f7b617;
+    vertical-align: middle;
+    
+}
+
+.downloadInfo{
+    display: flex;
+    border-style: solid; 
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.appText{
+    text-align: left;
+    margin: 7rem 5rem 7rem 2.5rem;
+    display:block;
+    
+}
+
+.appTextP{
+    font-size: 1.5rem;
+}
+
+.appTextMobile{
+    display:none;
+}
+
+.appTextMobile2{
+    display:none;
+    justify-content: flex-start;
+
+}
+
+.appImg{
+    height:70%;
+    margin: 3rem 0rem 3rem 2rem;
+}
+
+
 /* ----------------Mobile nav style--------------*/
 @media screen and (max-width:800px) {
 
@@ -164,4 +209,32 @@ nav ul li a:hover {
         padding: 6px;
         border-radius: 5px;
     }
+
+    .downloadInfo{
+        text-align: left;
+    }
+
+    .appText{
+        display:none;
+
+    }
+
+    .appTextMobile{
+        align-items: flex-start;
+        color:#ffffff;
+        display:block;
+    }
+
+    .appTextMobile2{
+        color:#ffffff;
+        display:block;
+        text-align: end;
+        
+    }
+
+    .appImg{
+        height:70%;
+        vertical-align: middle;
+    }
+
 }
