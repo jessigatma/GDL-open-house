@@ -114,6 +114,10 @@ main{
         display:none;
     }
 
+    main {
+        height: 28rem;
+    }
+
 }
 
 
@@ -124,9 +128,10 @@ header {
     position: fixed;
     z-index: 100;
     padding: 0.625rem 1.25rem;
-    width: 100%;
     height: 3.125rem;
     background-color: #FFF;
+    background-size: cover;
+    width: 100%
 }
 
 nav {
@@ -194,7 +199,6 @@ nav ul li a:hover {
     padding-bottom: 3rem;
     padding-left: 0rem;
     padding-right: 10rem;
-    display:flex;
     background-color: #f7b617;
     vertical-align: middle; 
 }
@@ -234,13 +238,17 @@ nav ul li a:hover {
 
 /* ----------------Mobile Advertising style--------------*/
 @media screen and (max-width: 800px){
+    .advertising {
+        padding: 1rem;
+    }
     .downloadInfo{
-        text-align: left;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0;
     }
 
     .appText{
         display:none;
-
     }
 
     .appTextMobile{
@@ -252,13 +260,12 @@ nav ul li a:hover {
     .appTextMobile2{
         color:#ffffff;
         display:block;
-        text-align: end;
-        
     }
 
     .appImg{
-        height:70%;
-        vertical-align: middle;
+        width: 16rem;
+        height: 16rem;
+        margin: 3rem;
     }
 }
 
@@ -489,7 +496,6 @@ footer {
 
     footer {
         padding: .6rem;
-        width: 100%;
         height: 90%;
     }
 
