@@ -342,7 +342,7 @@ nav ul li a:hover {
     margin-bottom: 1.5rem;
 }
 
-input {
+.inputP {
     border-radius: .6rem;
     background-color: transparent;
     color: white;
@@ -517,3 +517,27 @@ footer {
         margin: 2rem;
     }
  }
+
+ /* -------- Estilos para modal -------------------*/
+ .modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0,0.75);
+  }
+  .modalDriverInfo p{
+    color: black;
+  }
+  .modalDriverInfo {
+    background-color:blue;
+    margin: 10% auto;
+    padding: 1.25rem;
+    width: 70%;
+    box-shadow: 0 5px 5px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 0.9375rem;
+  }

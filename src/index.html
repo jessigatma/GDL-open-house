@@ -89,11 +89,11 @@
                 <form class="routesForm">
                     <p class="subtitle">Tarifas</p>
                     <p class="prf3">Consulta las tarifas LabCar aquí</p>
-                    <img src="./assets/images/shape.png" /> <input type="text"
+                    <img src="./assets/images/shape.png" /> <input class="inputP" type="text"
                         placeholder="Ingrese su punto de partida"><input type="text" class="inputWeb"
                         placeholder="Insurgentes Centro, Cuahutémoc, Ciudad de México">
                     <br>
-                    <img src="./assets/images/shape2.png" /> <input type="text" placeholder="Ingrese su destino"><input
+                    <img src="./assets/images/shape2.png" /> <input class="inputP" type="text" placeholder="Ingrese su destino"><input
                         class="inputWeb" type="text" placeholder="Carolina, Ciuidad de los Deportes, Cuidad de México">
                     <br>
                     <button class="whiteBtn routesBtn"> ¡TRAZAR RUTA!</button>
@@ -184,9 +184,9 @@
     </container>
     --->
     <!-- -----------------------MODAL FORM---------------------------------------->
-    <!--
-    <container class="modalContainer">
-        <container class="driverInfo">
+    
+    <container id="modal" class="modalContainer">
+        <container class="modalDriverInfo">
             <form class="driverForm">
                 <h6>¿Tienes un vehículo de 4 puertas?</h6>
                 <select name="vehicle">
@@ -210,13 +210,13 @@
                     <option>2019</option>
                 </select>
                 <h6>Número de la matrícula </h6>
-                <input type="text" placeholder="Número de la matrícula">
+                <input class="modalInput" type="text" placeholder="Número de la matrícula">
                 <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
                 <button class="blueBtn"> ENVIAR </button>
             </form>
         </container>
     </container>
-    --->
+<script src="./js/app.js"></script>
 </body>
 
 </html>
