@@ -330,7 +330,6 @@ nav ul li a:hover {
     background-color: #f7b617;
     color: white;
     align-content: flex-start;
-   
 }
 
 .routes {
@@ -366,7 +365,6 @@ input {
     float: left;
 
 }
-
 
 .mapPic {
     align-content: flex-end;
@@ -405,8 +403,116 @@ input {
 
 /* ----------------Mobile Prices style--------------*/
 @media screen and (max-width:800px) {
+    .inputWeb{
+        display: none;
+    }
+  
+    .prices {
+      justify-content: flex-start;
+      height: auto;
+    }
+  
+    .routes {
+      margin-right: 3rem;
+      flex-direction: row;
+    }
 
-  .inputWeb{
-      display: block;
-  }
+    .routesForm {
+        padding: 0;
+    }
+
+    .routesBtn {
+        margin-left: 6rem;;
+    }
+
+    .mapPic {
+        margin-bottom: 0;
+        float: none;
+        padding: 0;
+    }
+
+    .mapImg {
+        width: 20rem;
+        margin: 1.6rem;
+    }
+
+    .pricesBox {
+        margin: .6rem;
+    }
+
+    input {
+        width: 17.2rem;
+    }
 }
+
+
+/* ----------------Desktop footer style--------------*/
+footer {
+    background-color: #2b2b2b;
+    height: 25rem;
+    padding: 2rem;
+ }
+ 
+ .whiteLog {
+    margin-bottom: 1rem;
+ }
+ 
+ .footerList {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    list-style: none;
+ }
+ 
+ i {
+    color: #FFF;
+    flex-flow: flex-end;
+ }
+ 
+ .appRoutes {
+    float: right;
+ }
+ 
+ .copyRight {
+    color: #FFF;
+    font-size: .8rem;
+    margin-top: 1rem;
+ }
+
+ .ulContainer {
+    display: flex;
+ }
+
+
+ /* ----------------Mobile footer style--------------*/
+ @media screen and (max-width:800px) {
+
+    footer {
+        padding: .6rem;
+        width: 100%;
+        height: 90%;
+    }
+
+    .socialIcons {
+        align-self: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .footerListContainer-B {
+        display: none;
+    }
+
+    .appRoutes {
+        margin-bottom: 1rem;
+        justify-content: flex-end;
+        align-self: flex-end;
+    }
+
+    .appInstall {
+        width: 8.5rem;
+    }
+
+    .ulContainer {
+        margin: 2rem;
+    }
+ }
