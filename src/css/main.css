@@ -27,7 +27,6 @@ main{
 
 .prf2{
     font-size: 1.5rem;
-    padding-bottom: 1rem;
 }
     
 #logo-begin{
@@ -524,7 +523,7 @@ footer {
     }
  }
 
- /* -------- Estilos para modal -------------------*/
+ /* -------- modal styles -------------------*/
  .modalContainer {
     display: none;
     position: fixed;
