@@ -7,6 +7,7 @@
     font-family: 'Cabin', sans-serif;
 }
 
+
 /* ----------------Desktop main style--------------*/
 main{
     padding-top:3.125rem;
@@ -18,10 +19,12 @@ main{
     color: white;
     
 }
+
 .main-title{
     font-size: 2rem;
     display:block;
 }
+
 .prf2{
     font-size: 1.5rem;
 }
@@ -30,6 +33,7 @@ main{
     width: 4rem;
     height:  1rem;
 }
+
 .register{
     margin: 4rem 0rem 8rem;
     padding: 2rem 7rem 2.5rem 2rem;
@@ -37,6 +41,7 @@ main{
     background-color: #f7b617;
     font-size: 2.5rem ;
 }
+
 .whiteBtn{
     background-color: white;
     color:black;
@@ -45,22 +50,25 @@ main{
     padding: .45rem .8rem;
     font-size: 1rem;
 }
+
 .mobile{
     display:none;
 }
+
 .webBtn{
     display:block;
 }
+
 .lines{
     text-align: center;
     padding:  0rem 0rem 1rem 5rem;
     display:block;
 }
+
 .lines-effect{
     display: inline-block;
     position: relative;
-    font-size: .8rem;
-    
+    font-size: .8rem; 
     }
 
     .lines-effect::after,.lines-effect::before{
@@ -89,15 +97,19 @@ main{
     .mobile-text{
         display:block;
     }
+
     .main-title{
         display:none;
     }
+
     .mobile{
         display:block;
     }
+
     .webBtn{
         display:none;
     }
+
     .lines{
         display:none;
     }
@@ -124,13 +136,16 @@ nav {
     background-color: #FFF;
     display: flex;
 }
+
 nav ul {
     overflow: hidden;
     list-style: none;
 }
+
 nav ul li {
     float:right;
 }
+
 nav ul li a{
 
     font-size: 1rem;
@@ -140,7 +155,6 @@ nav ul li a{
     padding-left: .5rem;
     padding-right: .5rem;
     text-decoration: none;
-
 }
 
 nav ul li a:hover {
@@ -151,12 +165,14 @@ nav ul li a:hover {
     display: none;
 }
 
+
 /* ----------------Mobile nav style--------------*/
 @media screen and (max-width:800px) {
 
     nav {
         display: none;
     }
+
     .hamburger {
         display: block;
         margin-right: 0.9375rem;
@@ -171,6 +187,7 @@ nav ul li a:hover {
     }
 }
 
+
 /* ----------------Desktop Advertising style--------------*/
 .advertising{
     padding: 3rem;
@@ -179,8 +196,7 @@ nav ul li a:hover {
     padding-right: 10rem;
     display:flex;
     background-color: #f7b617;
-    vertical-align: middle;
-    
+    vertical-align: middle; 
 }
 
 .downloadInfo{
@@ -193,8 +209,7 @@ nav ul li a:hover {
 .appText{
     text-align: left;
     margin: 7rem 5rem 7rem 2.5rem;
-    display:block;
-    
+    display:block; 
 }
 
 .appTextP{
@@ -215,6 +230,7 @@ nav ul li a:hover {
     height:70%;
     margin: 3rem 0rem 3rem 2rem;
 }
+
 
 /* ----------------Mobile Advertising style--------------*/
 @media screen and (max-width: 800px){
@@ -265,6 +281,7 @@ nav ul li a:hover {
     background:rgba(0, 0, 0, 0.45);
     padding-right: 3rem;
     padding-left: 3rem;
+    float: right;
  }
  
  .yellowBtn {
@@ -293,6 +310,19 @@ nav ul li a:hover {
  }
 
 
+/* ----------------Mobile driver style--------------*/
+@media screen and (max-width: 800px){
+    .driver {
+        height: 23rem;
+    }
+
+    .opacity {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: auto;
+    }
+}
+
 /* ----------------Desktop prices style--------------*/
 .prices {
     justify-content: flex-end;
@@ -302,6 +332,7 @@ nav ul li a:hover {
     align-content: flex-start;
    
 }
+
 .routes {
     margin-right: 7rem;
     flex-direction: row;
@@ -345,14 +376,13 @@ input {
     margin-top: 0rem;
     justify-content: flex-end;
     float: right;
-
-
 }
 
 .subtitle {
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
+
 .prf3 {
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
@@ -368,6 +398,7 @@ input {
 .inputWeb{
     display: none;
 }
+
 .routesForm{
     padding-right: 7rem;
 }
@@ -378,5 +409,4 @@ input {
   .inputWeb{
       display: block;
   }
-
 }
