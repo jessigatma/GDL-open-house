@@ -78,6 +78,9 @@ main{
     display:none;
 }
 
+
+/* ----------------Mobile main style--------------*/
+
 @media screen and (max-width: 800px){
 
     .mobile-text{
@@ -164,4 +167,89 @@ nav ul li a:hover {
         padding: 6px;
         border-radius: 5px;
     }
+}
+
+.prices {
+    justify-content: flex-end;
+    display:flex;
+    background-color: #f7b617;
+    color: white;
+    align-content: flex-start;
+   
+}
+.routes {
+    margin-right: 7rem;
+    flex-direction: row;
+}
+
+.titlePrices{
+    margin-bottom: 1.5rem;
+}
+
+input {
+    border-radius: .6rem;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid white;
+    padding: .7rem;
+    margin: .7rem;
+    width: 20rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+.pricesBox {
+    align-content: flex-start;
+    margin-right: 45rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+
+}
+
+.mapPic {
+    align-content: flex-end;
+    padding: 2rem 7rem 2.5rem 2rem;
+    text-align: left;
+    margin-bottom: 10rem;
+    margin-top: 0rem;
+    justify-content: flex-end;
+    float: right;
+
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.prf3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.routesBtn{
+    margin-left: 8rem;
+    margin-top: 1.2rem;
+    padding: .6rem;
+    width: 10rem;
+}
+
+.inputWeb{
+    display: none;
+}
+
+/* ----------------Mobile Tarifa style--------------*/
+@media screen and (max-width:800px) {
+
+.inputWeb{
+    display: block;
+}
+
+
+
+
+
 }
