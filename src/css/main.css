@@ -6,7 +6,10 @@
     background-size: cover;
     font-family: 'Cabin', sans-serif;
 }
+
+/* ----------------Desktop main style--------------*/
 main{
+    padding-top:3.125rem;
     display:flex;
     background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
     background-position: 0% 93%;
@@ -102,7 +105,7 @@ main{
 }
 
 
-/*Desktop nav style*/
+/* ----------------Desktop nav style--------------*/
 header {
     display: flex;
     align-items: center;
@@ -112,7 +115,6 @@ header {
     width: 100%;
     height: 3.125rem;
     background-color: #FFF;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 }
 
 nav {
@@ -169,6 +171,129 @@ nav ul li a:hover {
     }
 }
 
+/* ----------------Desktop Advertising style--------------*/
+.advertising{
+    padding: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0rem;
+    padding-right: 10rem;
+    display:flex;
+    background-color: #f7b617;
+    vertical-align: middle;
+    
+}
+
+.downloadInfo{
+    display: flex;
+    border-style: solid; 
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.appText{
+    text-align: left;
+    margin: 7rem 5rem 7rem 2.5rem;
+    display:block;
+    
+}
+
+.appTextP{
+    font-size: 1.5rem;
+}
+
+.appTextMobile{
+    display:none;
+}
+
+.appTextMobile2{
+    display:none;
+    justify-content: flex-start;
+
+}
+
+.appImg{
+    height:70%;
+    margin: 3rem 0rem 3rem 2rem;
+}
+
+/* ----------------Mobile Advertising style--------------*/
+@media screen and (max-width: 800px){
+    .downloadInfo{
+        text-align: left;
+    }
+
+    .appText{
+        display:none;
+
+    }
+
+    .appTextMobile{
+        align-items: flex-start;
+        color:#ffffff;
+        display:block;
+    }
+
+    .appTextMobile2{
+        color:#ffffff;
+        display:block;
+        text-align: end;
+        
+    }
+
+    .appImg{
+        height:70%;
+        vertical-align: middle;
+    }
+}
+
+
+/* ----------------Desktop driver style--------------*/
+
+.driver {
+    background-image:
+    url("https://i.ibb.co/GnkFtg5/conduce.jpg");
+    width: 100%;
+    height: 28.13rem;
+    background-position: 0% 93%;
+    background-size:cover;
+    justify-content: flex-end;
+ }
+ 
+ .opacity {
+    width: 28.13rem;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.45);
+    padding-right: 3rem;
+    padding-left: 3rem;
+ }
+ 
+ .yellowBtn {
+    background-color: #f7b617;
+    color:#FFF;
+    border-radius: .25rem;
+    border:none;
+    padding: .45rem .8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+ }
+ 
+ .subtitle {
+    color: #FFF;
+    font-size: 2rem;
+ }
+ 
+ .text {
+    font-size: 1.2rem;
+    color: #FFF;
+    margin-top: 1rem;
+ }
+ 
+ .driverInfo {
+    padding-top: 4.5rem;
+ }
+
+
+/* ----------------Desktop prices style--------------*/
 .prices {
     justify-content: flex-end;
     display:flex;
@@ -247,15 +372,11 @@ input {
     padding-right: 7rem;
 }
 
-/* ----------------Mobile Tarifa style--------------*/
+/* ----------------Mobile Prices style--------------*/
 @media screen and (max-width:800px) {
 
-.inputWeb{
-    display: block;
-}
-
-
-
-
+  .inputWeb{
+      display: block;
+  }
 
 }
