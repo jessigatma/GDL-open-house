@@ -6,7 +6,7 @@
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Cabin', sans-serif;
-}
+ }
 main{
     display:flex;
     background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
@@ -22,6 +22,7 @@ main{
 }
 .prf2{
     font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
     
 #logo-begin{
