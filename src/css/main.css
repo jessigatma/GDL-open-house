@@ -5,8 +5,12 @@
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Cabin', sans-serif;
- }
+}
+
+
+/* ----------------Desktop main style--------------*/
 main{
+    padding-top:3.125rem;
     display:flex;
     background-image: url('https://i.ibb.co/ryGC2mq/taxi.jpg');
     background-position: 0% 93%;
@@ -15,10 +19,12 @@ main{
     color: white;
     
 }
+
 .main-title{
     font-size: 2rem;
     display:block;
 }
+
 .prf2{
     font-size: 1.5rem;
     padding-bottom: 1rem;
@@ -28,6 +34,7 @@ main{
     width: 4rem;
     height:  1rem;
 }
+
 .register{
     margin: 4rem 0rem 8rem;
     padding: 2rem 7rem 2.5rem 2rem;
@@ -35,6 +42,7 @@ main{
     background-color: #f7b617;
     font-size: 2.5rem ;
 }
+
 .whiteBtn{
     background-color: white;
     color:black;
@@ -43,22 +51,25 @@ main{
     padding: .45rem .8rem;
     font-size: 1rem;
 }
+
 .mobile{
     display:none;
 }
+
 .webBtn{
     display:block;
 }
+
 .lines{
     text-align: center;
     padding:  0rem 0rem 1rem 5rem;
     display:block;
 }
+
 .lines-effect{
     display: inline-block;
     position: relative;
-    font-size: .8rem;
-    
+    font-size: .8rem; 
     }
 
     .lines-effect::after,.lines-effect::before{
@@ -79,20 +90,27 @@ main{
     display:none;
 }
 
+
+/* ----------------Mobile main style--------------*/
+
 @media screen and (max-width: 800px){
 
     .mobile-text{
         display:block;
     }
+
     .main-title{
         display:none;
     }
+
     .mobile{
         display:block;
     }
+
     .webBtn{
         display:none;
     }
+
     .lines{
         display:none;
     }
@@ -100,7 +118,7 @@ main{
 }
 
 
-/*Desktop nav style*/
+/* ----------------Desktop nav style--------------*/
 header {
     display: flex;
     align-items: center;
@@ -110,7 +128,6 @@ header {
     width: 100%;
     height: 3.125rem;
     background-color: #FFF;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 }
 
 nav {
@@ -120,13 +137,16 @@ nav {
     background-color: #FFF;
     display: flex;
 }
+
 nav ul {
     overflow: hidden;
     list-style: none;
 }
+
 nav ul li {
     float:right;
 }
+
 nav ul li a{
 
     font-size: 1rem;
@@ -136,7 +156,6 @@ nav ul li a{
     padding-left: .5rem;
     padding-right: .5rem;
     text-decoration: none;
-
 }
 
 nav ul li a:hover {
@@ -147,12 +166,14 @@ nav ul li a:hover {
     display: none;
 }
 
+
 /* ----------------Mobile nav style--------------*/
 @media screen and (max-width:800px) {
 
     nav {
         display: none;
     }
+
     .hamburger {
         display: block;
         margin-right: 0.9375rem;
@@ -166,3 +187,333 @@ nav ul li a:hover {
         border-radius: 5px;
     }
 }
+
+
+/* ----------------Desktop Advertising style--------------*/
+.advertising{
+    padding: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0rem;
+    padding-right: 10rem;
+    display:flex;
+    background-color: #f7b617;
+    vertical-align: middle; 
+}
+
+.downloadInfo{
+    display: flex;
+    border-style: solid; 
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.appText{
+    text-align: left;
+    margin: 7rem 5rem 7rem 2.5rem;
+    display:block; 
+}
+
+.appTextP{
+    font-size: 1.5rem;
+}
+
+.appTextMobile{
+    display:none;
+}
+
+.appTextMobile2{
+    display:none;
+    justify-content: flex-start;
+
+}
+
+.appImg{
+    height:70%;
+    margin: 3rem 0rem 3rem 2rem;
+}
+
+
+/* ----------------Mobile Advertising style--------------*/
+@media screen and (max-width: 800px){
+    .downloadInfo{
+        text-align: left;
+    }
+
+    .appText{
+        display:none;
+
+    }
+
+    .appTextMobile{
+        align-items: flex-start;
+        color:#ffffff;
+        display:block;
+    }
+
+    .appTextMobile2{
+        color:#ffffff;
+        display:block;
+        text-align: end;
+        
+    }
+
+    .appImg{
+        height:70%;
+        vertical-align: middle;
+    }
+}
+
+
+/* ----------------Desktop driver style--------------*/
+
+.driver {
+    background-image:
+    url("https://i.ibb.co/GnkFtg5/conduce.jpg");
+    width: 100%;
+    height: 28.13rem;
+    background-position: 0% 93%;
+    background-size:cover;
+    justify-content: flex-end;
+ }
+ 
+ .opacity {
+    width: 28.13rem;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.45);
+    padding-right: 3rem;
+    padding-left: 3rem;
+    float: right;
+ }
+ 
+ .yellowBtn {
+    background-color: #f7b617;
+    color:#FFF;
+    border-radius: .25rem;
+    border:none;
+    padding: .45rem .8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+ }
+ 
+ .subtitle {
+    color: #FFF;
+    font-size: 2rem;
+ }
+ 
+ .text {
+    font-size: 1.2rem;
+    color: #FFF;
+    margin-top: 1rem;
+ }
+ 
+ .driverInfo {
+    padding-top: 4.5rem;
+ }
+
+
+/* ----------------Mobile driver style--------------*/
+@media screen and (max-width: 800px){
+    .driver {
+        height: 23rem;
+    }
+
+    .opacity {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: auto;
+    }
+}
+
+/* ----------------Desktop prices style--------------*/
+.prices {
+    justify-content: flex-end;
+    display:flex;
+    background-color: #f7b617;
+    color: white;
+    align-content: flex-start;
+}
+
+.routes {
+    margin-right: 7rem;
+    flex-direction: row;
+}
+
+.titlePrices{
+    margin-bottom: 1.5rem;
+}
+
+input {
+    border-radius: .6rem;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid white;
+    padding: .7rem;
+    margin: .7rem;
+    width: 20rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+.pricesBox {
+    align-content: flex-start;
+    /*margin-right: 45rem;*/
+    margin-left: 6rem;
+    margin-top: 5rem;
+    float: left;
+
+}
+
+.mapPic {
+    align-content: flex-end;
+    padding: 2rem 1rem 2.5rem 6rem;
+    text-align: left;
+    margin-bottom: 10rem;
+    margin-top: 0rem;
+    justify-content: flex-end;
+    float: right;
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.prf3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.routesBtn{
+    margin-left: 8rem;
+    margin-top: 1.2rem;
+    padding: .6rem;
+    width: 10rem;
+}
+
+.inputWeb{
+    display: none;
+}
+
+.routesForm{
+    padding-right: 7rem;
+}
+
+/* ----------------Mobile Prices style--------------*/
+@media screen and (max-width:800px) {
+    .inputWeb{
+        display: none;
+    }
+  
+    .prices {
+      justify-content: flex-start;
+      height: auto;
+    }
+  
+    .routes {
+      margin-right: 3rem;
+      flex-direction: row;
+    }
+
+    .routesForm {
+        padding: 0;
+    }
+
+    .routesBtn {
+        margin-left: 6rem;;
+    }
+
+    .mapPic {
+        margin-bottom: 0;
+        float: none;
+        padding: 0;
+    }
+
+    .mapImg {
+        width: 20rem;
+        margin: 1.6rem;
+    }
+
+    .pricesBox {
+        margin: .6rem;
+    }
+
+    input {
+        width: 17.2rem;
+    }
+}
+
+
+/* ----------------Desktop footer style--------------*/
+footer {
+    background-color: #2b2b2b;
+    height: 25rem;
+    padding: 2rem;
+ }
+ 
+ .whiteLog {
+    margin-bottom: 1rem;
+ }
+ 
+ .footerList {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    list-style: none;
+ }
+ 
+ i {
+    color: #FFF;
+    flex-flow: flex-end;
+ }
+ 
+ .appRoutes {
+    float: right;
+ }
+ 
+ .copyRight {
+    color: #FFF;
+    font-size: .8rem;
+    margin-top: 1rem;
+ }
+
+ .ulContainer {
+    display: flex;
+ }
+
+
+ /* ----------------Mobile footer style--------------*/
+ @media screen and (max-width:800px) {
+
+    footer {
+        padding: .6rem;
+        width: 100%;
+        height: 90%;
+    }
+
+    .socialIcons {
+        align-self: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .footerListContainer-B {
+        display: none;
+    }
+
+    .appRoutes {
+        margin-bottom: 1rem;
+        justify-content: flex-end;
+        align-self: flex-end;
+    }
+
+    .appInstall {
+        width: 8.5rem;
+    }
+
+    .ulContainer {
+        margin: 2rem;
+    }
+ }
