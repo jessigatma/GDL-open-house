@@ -25,7 +25,7 @@
                 <span id="btnCloseMenu">&times;</span>
                 <li> <a href="#"> Viaja </a> </li>
                 <li><a href="#">Conduce </a> </li>
-                <li><a href="#"> Inicia Sesión</a></li>   
+                <li><a id="loginLink" href="#"> Inicia Sesión</a></li>   
             </ul>
         </nav>     
        
@@ -155,18 +155,29 @@
     </footer>
 
     <!-- -----------------------MODAL LOGIN---------------------------------------->
-    <!--
-    <container class="modalContainer">
-        <container class="login">
-            <form class="loginForm">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <button class="yellowBtn"> LOGING </button>
+    
+    <div id="modalLogin" class="modalContainer">
+        <div class="modalDriverInfo">
+            <button id="close3" class="close" >X</button>
+            <div class="modalImage">
+                <img  src="https://i.ibb.co/5W2QLv4/usericon2.png" />
+            </div>
+             <hr>
+            <form class="driverForm">
+                <div class="inputWithIcon inputIconBg">
+                    <input type="text" placeholder="Username">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="inputWithIcon inputIconBg">
+                    <input type="password" placeholder="Password">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <button class="blueBtn"> LOGING </button>
                 <P>Forgot password? <a href="#"> Click Here</a></P>
             </form>
-        </container>
-    </container>
-    --->
+        </div>
+    </div>
+    
     <!------------------------MODAL REGISTER---------------------------------------->
     
     <div id="modalRegister" class="modalContainer">

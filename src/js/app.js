@@ -20,6 +20,18 @@ function hiddenModal1(){
 }
 document.getElementById("close1").addEventListener('click', hiddenModal1);
 
+function showLogin() {
+    document.getElementById("modalLogin").style.display = 'block';
+
+}
+document.getElementById("loginLink").addEventListener('click', showLogin);
+
+function hiddenModal2() {
+    document.getElementById("modalLogin").style.display = 'none';
+   }
+document.getElementById("close3").addEventListener('click', hiddenModal2);
+
+
 
 function showMenu() {
     document.getElementById("id01").style.display = 'block';

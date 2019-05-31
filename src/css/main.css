@@ -566,15 +566,17 @@ footer {
       margin:.2rem;
   }
   .modalDriverInfo {
-      text-align: left;
+    text-align: left;
     background-color: #a9a9a9;
     margin: 10% auto;
     padding: 1.25rem;
     width: 21rem;
     box-shadow: 0 5px 5px 0 rgb(0, 0, 0, 0.2);
     border-radius: 0.9375rem;
+  } 
+  .modalImage{
+    text-align: center;
   }
-
 
   .blueBtn{
       background-color: #5bc0de;
@@ -602,3 +604,59 @@ footer {
     border-radius: .3rem;
     font-size: 1.2rem;
   }
+  input[type=text]{
+      width:97.5%;
+      border:0.125rem solid #aaa;
+      border-radius: 0.25rem;
+      margin:0.5rem 0;
+      outline:none;
+      padding:.5rem;
+      box-sizing: border-box;
+      transition:.3s;
+  }
+
+  .input[type=text]:focus{
+      border-color:#5bc0de;
+      box-shadow: 0 0 .5rem 0 #5bc0de;
+  }
+
+  .inputWithIcon input[type=text]{
+      padding-left:2.5rem;
+   }
+   .inputWithIcon{
+       position: relative;
+   }
+   .inputWithIcon i{
+       position:absolute;
+       left:0;
+       top: .5rem;
+       padding: .5625rem .5rem;
+       color:#aaa;
+   }
+   .inputWithIcon input[type=text]:focus + i{
+       color:#5bc0de;
+   }
+   input[type=password]{
+    width:97.5%;
+    border:0.125rem solid #aaa;
+    border-radius: 0.25rem;
+    margin:0.5rem 0;
+    outline:none;
+    padding:.5rem;
+    box-sizing: border-box;
+    transition:.3s;
+}
+
+.input[type=password]:focus{
+    border-color:#5bc0de;
+    box-shadow: 0 0 .5rem 0 #5bc0de;
+}
+
+.inputWithIcon input[type=password]{
+    padding-left:2.5rem;
+ }
+
+ .inputWithIcon input[type=password]:focus + i{
+     color:#5bc0de;
+ }
+ 
