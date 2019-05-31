@@ -5,18 +5,20 @@ function showModal() {
 document.getElementById("becomeDriver").addEventListener('click', showModal);
 document.getElementById("becomeDriver1").addEventListener('click', showModal);
 
+function hiddenModal() {
+    document.getElementById("modal").style.display = 'none';
+   }
+document.getElementById("close2").addEventListener('click', hiddenModal);
+
 function showModalR() {
     document.getElementById("modalRegister").style.display = 'block';
 }
 document.getElementById("userRegister").addEventListener('click', showModalR);
 
-
-function hiddenModal() {
-    document.getElementById("modal").style.display = 'none';
+function hiddenModal1(){
+    document.getElementById("modalRegister").style.display = 'none';
 }
-document.getElementById("close2").addEventListener('click', hiddenModal);
-document.getElementById("close1").addEventListener('click', hiddenModal);
-
+document.getElementById("close1").addEventListener('click', hiddenModal1);
 
 
 function showMenu() {
